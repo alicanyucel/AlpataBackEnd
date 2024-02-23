@@ -1168,11 +1168,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ali Can\\Source\\Repos\\AlpataApi\\NTierArchitecture.Business\\NTierArchitecture.Business.csproj",
+      "projectUniqueName": "C:\\Users\\Ali Can\\Source\\Repos\\AlpataBackEnd\\NTierArchitecture.Business\\NTierArchitecture.Business.csproj",
       "projectName": "NTierArchitecture.Business",
-      "projectPath": "C:\\Users\\Ali Can\\Source\\Repos\\AlpataApi\\NTierArchitecture.Business\\NTierArchitecture.Business.csproj",
+      "projectPath": "C:\\Users\\Ali Can\\Source\\Repos\\AlpataBackEnd\\NTierArchitecture.Business\\NTierArchitecture.Business.csproj",
       "packagesPath": "C:\\Users\\Ali Can\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ali Can\\Source\\Repos\\AlpataApi\\NTierArchitecture.Business\\obj\\",
+      "outputPath": "C:\\Users\\Ali Can\\Source\\Repos\\AlpataBackEnd\\NTierArchitecture.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1193,8 +1193,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Ali Can\\Source\\Repos\\AlpataApi\\NTierArchitecture.Entities\\NTierArchitecture.Entities.csproj": {
-              "projectPath": "C:\\Users\\Ali Can\\Source\\Repos\\AlpataApi\\NTierArchitecture.Entities\\NTierArchitecture.Entities.csproj"
+            "C:\\Users\\Ali Can\\Source\\Repos\\AlpataBackEnd\\NTierArchitecture.Entities\\NTierArchitecture.Entities.csproj": {
+              "projectPath": "C:\\Users\\Ali Can\\Source\\Repos\\AlpataBackEnd\\NTierArchitecture.Entities\\NTierArchitecture.Entities.csproj"
             }
           }
         }

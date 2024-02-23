@@ -14,7 +14,7 @@ public sealed class AuthController : ApiController
     public AuthController(IMediator mediator) : base(mediator)
     {
     }
-
+    // DENEM COMİİT
     [HttpPost]
     public async Task<IActionResult> Register([FromForm]RegisterCommand request, CancellationToken cancellationToken)
     {

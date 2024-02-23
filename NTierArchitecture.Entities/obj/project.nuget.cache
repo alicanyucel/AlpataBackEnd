@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lQVq0/lK5FZEPs/lb9HJhUKPY5lCaL3D9P0Jk8NcpHVmVjhwW86Yl4totxdY69UjUu6sybvstC9NOGPiL2A9Yg==",
+  "dgSpecHash": "Vv5CuRqKvQNN3u4KfpPf9sQC7YnNrfy4nJDCsv8XvfWL7UnVS8F8+ifzhrvq1zPXt0vjODKsptDkZbxf5eJjuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ali Can\\Source\\Repos\\AlpataApi\\NTierArchitecture.Entities\\NTierArchitecture.Entities.csproj",
+  "projectFilePath": "C:\\Users\\Ali Can\\Source\\Repos\\AlpataBackEnd\\NTierArchitecture.Entities\\NTierArchitecture.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ali Can\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Ali Can\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

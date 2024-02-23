@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NTierArchitecture.DataAccess
-build_property.ProjectDir = C:\Users\Ali Can\Source\Repos\AlpataApi\NTierArchitecture.DataAccess\
+build_property.ProjectDir = C:\Users\Ali Can\Source\Repos\AlpataBackEnd\NTierArchitecture.DataAccess\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
