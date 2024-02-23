@@ -1,1 +1,1 @@
-Mediator, Repository, Unitofwork, N tier Architecture, code first, Fluent validation, jwt, hashing,Swagger, mssql, İdentity api, Cqrs, Automapper,Custom Middleware, Newton soft. Json,Authentication, Rolleme, Mssql Kullanıldı.
+Mediator, Repository, Unitofwork, N tier Architecture, code first, Fluent validation, jwt, hashing,Swagger, mssql, İdentity api, Cqrs, Automapper,Custom Middleware, Newton soft. Json,Authentication, Rolleme Kullanıldı.
