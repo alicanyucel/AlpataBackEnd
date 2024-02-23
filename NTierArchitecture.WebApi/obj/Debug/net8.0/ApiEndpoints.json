@@ -1,0 +1,218 @@
+[
+  {
+    "ContainingType": "NTierArchitecture.WebApi.Controllers.AuthController",
+    "Method": "AddFile",
+    "RelativePath": "api/Auth/AddFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTierArchitecture.WebApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NTierArchitecture.Business.Features.Auth.Login.LoginCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTierArchitecture.WebApi.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Lastname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTierArchitecture.WebApi.Controllers.MailController",
+    "Method": "SendEmail",
+    "RelativePath": "api/Mail/SendEmail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTierArchitecture.WebApi.Controllers.MeetsController",
+    "Method": "Add",
+    "RelativePath": "api/Meets/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NTierArchitecture.Business.Features.Meets.CreateMeets.CreateMeetCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTierArchitecture.WebApi.Controllers.MeetsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Meets/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NTierArchitecture.Business.Features.Meets.GetMeets.GetMeetsQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTierArchitecture.WebApi.Controllers.MeetsController",
+    "Method": "GetById",
+    "RelativePath": "api/Meets/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTierArchitecture.WebApi.Controllers.MeetsController",
+    "Method": "RemoveById",
+    "RelativePath": "api/Meets/RemoveById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NTierArchitecture.Business.Features.Meets.RemoveMeetsById.RemoveMeetsByIdCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTierArchitecture.WebApi.Controllers.MeetsController",
+    "Method": "Update",
+    "RelativePath": "api/Meets/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NTierArchitecture.Business.Features.Meets.UpdateMeets.UpdateMeetCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTierArchitecture.WebApi.Controllers.RolesController",
+    "Method": "Create",
+    "RelativePath": "api/Roles/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NTierArchitecture.Business.Features.Roles.CreateRole.CreateRoleCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTierArchitecture.WebApi.Controllers.RolesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Roles/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NTierArchitecture.Business.Features.Roles.GetRoles.GetRolesQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NTierArchitecture.WebApi.Controllers.UserRolesController",
+    "Method": "SetRole",
+    "RelativePath": "api/UserRoles/SetRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NTierArchitecture.Business.Features.UserRoles.SetUserRole.SetUserRoleCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
